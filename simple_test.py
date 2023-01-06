@@ -13,5 +13,6 @@ if __name__ == '__main__':
     result = psi_sv_initial.evolve(projector)
 
     result.draw(output='bloch')
+    print(result.data)
 
     print('END')
